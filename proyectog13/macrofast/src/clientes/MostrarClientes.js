@@ -1,4 +1,6 @@
+import {  useTheme } from "@mui/material";
 import axios from 'axios'
+import { tokens } from "../theme";
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
@@ -9,6 +11,8 @@ const CompMostrarCliente = () => {
     getClientes()
   }, [])
 
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
   // Mostrar Cliente
   const getClientes = async () => {
     const res = await axios.get(URL)
