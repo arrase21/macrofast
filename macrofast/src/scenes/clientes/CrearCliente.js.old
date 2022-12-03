@@ -22,7 +22,7 @@ const CompAgregarClientes = () => {
 			telefono: telefono,
 			direccion: direccion,
 		})
-		navigate('/')
+		navigate('/comidas/')
 	}
 	return (
 		<div>
@@ -86,9 +86,7 @@ const CompAgregarClientes = () => {
 						className='form-control'
 					/>
 				</div>
-
           <button type='submit' className='btn btn-primary'> Guardar </button>
-
 			</form>
 		</div>
 	)
