@@ -3,7 +3,6 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 const URL = 'http://localhost:5000/api/Clientes/'
-
 const CompEditarClientes = () => {
 	const [nombres, setNombres] = useState('')
 	const [apellidos, setApellidos] = useState('')

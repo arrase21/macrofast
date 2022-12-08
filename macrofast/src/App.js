@@ -1,13 +1,15 @@
 import { useState } from 'react'
-// import logo from './logo.svg'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Sidebar from './scenes/global/Sidebar'
 import Topbar from './scenes/global/Topbar'
+
 import CompMostrarCliente from './scenes/clientes/MostrarClientes'
 import CompAgregarClientes from './scenes/clientes/CrearCliente'
-import CompMostrarComidas from './scenes/comidas/MostrarComidas'
 import CompEditarClientes from './scenes/clientes/ModificarClientes.js'
+import CompMostrarComidas from './scenes/comidas/MostrarComidas'
+import CompEditarComidas from './scenes/comidas/ModificarComidas.js'
+
 import ContactUs from './scenes/contact/contact'
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import { ColorModeContext, useMode } from './theme'
@@ -31,6 +33,7 @@ function App() {
 								<Route path='/clientes/agregar' element={<CompAgregarClientes />}/>
 								<Route path='/clientes/editar/:id' element={<CompEditarClientes />}/>
 								<Route path='/comidas/' element={<CompMostrarComidas />} />
+                <Route path='/comidas/editar/:id' element={<CompEditarComidas />}/>
 								<Route path='/calendar/' element={<Calendar />} />
 								<Route path='/contacto/' element={<ContactUs />} />
 							</Routes>
