@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
-const URL = 'https://macro-api.onrender.com/api/Clientes/'
+const URL = 'https://macro-api.onrender.com/Clientes/'
 const CompEditarClientes = () => {
 	const [nombres, setNombres] = useState('')
 	const [apellidos, setApellidos] = useState('')

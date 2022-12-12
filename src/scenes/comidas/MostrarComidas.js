@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import CrearComidas from './modal'
 
-const URL = 'https://macro-api.onrender.com/api/alimentos/'
+const URL = 'https://macro-api.onrender.com/alimentos/'
 const CompMostrarComidas = () => {
 	const [comidas, setComida] = useState([])
 	useEffect(() => {

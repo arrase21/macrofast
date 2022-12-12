@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const URL = 'https://macro-api.onrender.com/api/alimentos/';
+const URL = 'https://macro-api.onrender.com/alimentos/';
 const CompEditarComidas = () => {
 	const [nombres, setNombres] = useState('')
 	const [gramos, setGramos] = useState('')
