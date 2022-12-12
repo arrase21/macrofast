@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const URL = 'https://macro-api.onrender.com/alimentos/';
+const URL = 'https://macro-api.onrender.com/Alimentos/';
 const CompEditarComidas = () => {
 	const [nombres, setNombres] = useState('')
 	const [gramos, setGramos] = useState('')
@@ -22,13 +22,13 @@ const CompEditarComidas = () => {
 			proteinas: proteinas,
 			carbohidratos: carbohidratos,
 			grasas: grasas,
-		});
-		navigate('/comidas/');
+		})
+		navigate('/comida/')
 	}
 
 	useEffect(() => {
 		getComidaById()
-	}, []);
+	}, [])
 
 	const getComidaById = async () => {
 		const resul = await axios.get(`${URL}${id}`)
@@ -100,10 +100,7 @@ const CompEditarComidas = () => {
 					/>
 				</div>
 
-				<button type='submit' className='btn btn-primary'>
-					{' '}
-					Sync{' '}
-				</button>
+				<button type='submit' className='btn btn-primary'>Sync</button>
 			</form>
 		</div>
 	)
