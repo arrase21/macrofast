@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const URL = 'http://localhost:5000/api/clientes'
+const URL = 'https://macro-api.onrender.com/api/clientes'
 const Form = () => {
 	const isNonMobile = useMediaQuery('(min-width:600px)')
 	const [nombres, setNombres] = useState('')
