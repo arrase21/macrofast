@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 
 
-const URL = 'http://localhost:5000/api/alimentos/'
+const URL = 'https://macro-api.onrender.com/alimentos/'
 const CompAgregarComida = () => {
 	const [nombres, setNombres] = useState('')
 	const [calorias, setCalorias] = useState('')

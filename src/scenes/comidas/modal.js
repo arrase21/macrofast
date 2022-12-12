@@ -10,7 +10,7 @@ import { TextField } from '@mui/material'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { SaveAs } from '@mui/icons-material';
 
-const URL = 'http://localhost:5000/api/alimentos/'
+const URL = 'https://macro-api.onrender.com/alimentos/'
 const style = {
   position: 'absolute',
   top: '50%',

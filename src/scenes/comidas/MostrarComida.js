@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 // import KeepMountedModal from './modal';
 
-const URL = 'http://localhost:5000/api/alimentos/';
+
+const URL = 'https://macro-api.onrender.com/alimentos/'
 const CompMostrarComida = () => {
 	const [comidas, setComida] = useState([])
 	useEffect(() => {
