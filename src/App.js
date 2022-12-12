@@ -19,7 +19,7 @@ function App() {
   const [theme, colorMode] = useMode()
   const [isSidebar, setIsSidebar] = useState(true)
 
-  fetch('https://example.com', {
+  fetch('https://macro-api.onrender.com', {
     credentials: 'omit',
   })
 
