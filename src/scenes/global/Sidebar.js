@@ -142,7 +142,7 @@ const Sidebar = () => {
 						<Item
 							title='Comida'
 							to='/comida'
-							icon={<PersonOutlinedIcon />}
+							icon={<LocalDiningIcon />}
 							selected={selected}
 							setSelected={setSelected}
 						/>
