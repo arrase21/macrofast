@@ -3,8 +3,6 @@ import { useContext } from 'react'
 import { ColorModeContext, tokens } from '../../theme'
 import InputBase from "@mui/material/InputBase";
 import PersonIcon from '@mui/icons-material/Person'
-import ContactPhoneIcon from '@mui/icons-material/ContactPhone'
-import LocalDiningIcon from '@mui/icons-material/LocalDining'
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined'
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
 import SearchIcon from "@mui/icons-material/Search";
