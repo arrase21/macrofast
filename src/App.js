@@ -37,8 +37,8 @@ function App() {
 								<Route path='/clientes/' element={<CompMostrarCliente />} />
 								<Route path='/clientes/agregar' element={<CompAgregarClientes />}/>
 								<Route path='/clientes/editar/:id' element={<CompEditarClientes />}/>
-								<Route path='/comidas/' element={<CompMostrarComidas />} />
-                <Route path='/comidas/editar/:id' element={<CompEditarComidas />}/>
+								<Route path='/comida/' element={<CompMostrarComidas />} />
+                <Route path='/comida/editar/:id' element={<CompEditarComidas />}/>
 								<Route path='/calendar/' element={<Calendar />} />
 								<Route path='/contacto/' element={<ContactUs />} />
 							</Routes>

@@ -41,7 +41,7 @@ const Topbar = () => {
 					<label for=''>Contact</label>
 				</IconButton>
 
-				<IconButton href='/comidas'>
+				<IconButton href='/'>
 					<LocalDiningIcon />
 					<label for=''>Comidas</label>
 				</IconButton>
