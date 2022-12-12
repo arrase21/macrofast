@@ -36,12 +36,12 @@ const Topbar = () => {
 						<LightModeOutlinedIcon />
 					)}
 				</IconButton>
-				<IconButton>
+				<IconButton href='/contacto/'>
 					<ContactPhoneIcon />
 					<label for=''>Contact</label>
 				</IconButton>
 
-				<IconButton href='/'>
+				<IconButton href='/comida/'>
 					<LocalDiningIcon />
 					<label for=''>Comidas</label>
 				</IconButton>
