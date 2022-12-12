@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const URL = 'https://macro-api.onrender.com/Alimentos/';
+const URL = 'https://macro-api.onrender.com/Alimentos/'
 const CompEditarComidas = () => {
 	const [nombres, setNombres] = useState('')
 	const [gramos, setGramos] = useState('')
@@ -42,7 +42,7 @@ const CompEditarComidas = () => {
 
 	return (
 		<div>
-			<h4>ddd</h4>
+			<h4>Modificar</h4>
 			<form onSubmit={Actualizar}>
 				<div className='mb-3'>
 					<label className='form-label'> Nombre</label>

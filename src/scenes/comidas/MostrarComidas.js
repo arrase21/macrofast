@@ -53,7 +53,7 @@ const CompMostrarComidas = () => {
 										<Button
 											variant='contained'
 											component={Link}
-											to={`/comidas/editar/${comida._id}`}
+											to={`/comida/editar/${comida._id}`}
 											startIcon={<EditIcon />}
 											color='info'
 										>
