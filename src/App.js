@@ -17,7 +17,7 @@ import Calendar from './scenes/calendar/calendar'
 
 function App() {
 
-    fetch("https://macro-api.onrender.com")
+    fetch("http://localhost:3005")
         .then(res => res.text())
         .then(res => this.setState({ apiResponse: res }));
 
