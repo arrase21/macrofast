@@ -19,12 +19,9 @@ function App() {
   const [theme, colorMode] = useMode()
   const [isSidebar, setIsSidebar] = useState(true)
 
-   useEffect(() => {
-    fetch('https://macro-api.onrender.com')
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
-
+  fetch('https://example.com', {
+    credentials: 'omit',
+  })
 
   return (
     <ColorModeContext.Provider value={colorMode}>
