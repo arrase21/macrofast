@@ -47,7 +47,7 @@ export default function CrearComidas() {
 			grasas: grasas,
 			carbohidratos: carbohidratos,
 		})
-		navigate('#')
+		navigate('/')
 	}
 	function refreshPage() {
 		window.location.reload(true)
