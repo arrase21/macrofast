@@ -7,7 +7,7 @@ import EditIcon from '@mui/icons-material/Edit'
 import { SaveAs } from '@mui/icons-material';
 import { pink } from '@mui/material/colors';
 
-const URL = 'http://localhost:5000/api/Clientes/'
+const URL = 'https://macro-api.onrender.com/api/clientes'
 const CompMostrarCliente = () => {
 	const [clientes, setCliente] = useState([])
 	useEffect(() => {
